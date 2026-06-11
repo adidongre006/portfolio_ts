@@ -35,13 +35,23 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-base  mono-font md:font-normal font-light  text-blue-700 ">
+        <p className="md:text-base text-base  mono-font font-semibold  text-blue-700 ">
           Copyright © <span>{new Date().getFullYear()}</span> Aditya | All
           Rights Reserved.
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6  md:flex-row flex-col  ">
-          <div className="flex sm:ml-8 md:flex-row flex-col justify-center items-center">
+        <div className="flex items-center md:gap-3 gap-6 lg:flex-row  md:flex-col  ">
+          <span className="flex items-center  gap-3 relative font-mono text-blue-700 font-semibold">
+            Made with passion &
+            <Image
+              src={"/greenheart.svg"}
+              alt="greenheart"
+              width={18}
+              height={18}
+              className="relative "
+            ></Image>
+          </span>
+          {/* <div className="flex sm:ml-8 md:flex-row flex-col justify-center items-center">
             <span className="flex-row md:text-base text-base  sm:ml-7 md:px-4 leading-relaxed space-x-2 mono-font md:font-normal font-light  right-[70px] flex items-center  gap-3 relative font-mono text-blue-700">
               Made with passion &
               <Image
@@ -52,7 +62,7 @@ const Footer = () => {
                 className="relative "
               ></Image>
             </span>
-          </div>
+          </div> */}
           {socialMedia.map((info) => (
             <a
               href={info.link}

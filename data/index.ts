@@ -257,7 +257,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link:"https://www.linkedin.com/in/adityadongre006/",
+    link:"https://x.com/AdityaDongre06",
     img: "/twit.svg",
   },
   // {
