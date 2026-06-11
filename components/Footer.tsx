@@ -36,13 +36,26 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-base  mono-font md:font-normal font-light  text-blue-700 ">
-          Copyright © <span>{new Date().getFullYear()}</span> Aditya  | All Rights Reserved. 
-</p>
-                          
-        <div className="flex items-center md:gap-3 gap-6">
-          <span className="right-[70px] flex items-center  gap-3 relative font-mono text-blue-700">Made with passion & <Image src={'/greenheart.svg'} alt="greenheart" width={18} height={18} className="relative "></Image> </span>
+          Copyright © <span>{new Date().getFullYear()}</span> Aditya | All
+          Rights Reserved.
+        </p>
+
+        <div className="flex items-center md:gap-3 gap-6  md:flex-row flex-col  ">
+          <div className="flex sm:ml-8 md:flex-row flex-col justify-center items-center">
+            <span className="flex-row md:text-base text-base  sm:ml-7 md:px-4 leading-relaxed space-x-2 mono-font md:font-normal font-light  right-[70px] flex items-center  gap-3 relative font-mono text-blue-700">
+              Made with passion &
+              <Image
+                src={"/greenheart.svg"}
+                alt="greenheart"
+                width={18}
+                height={18}
+                className="relative "
+              ></Image>
+            </span>
+          </div>
           {socialMedia.map((info) => (
-            <a href={info.link}
+            <a
+              href={info.link}
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
