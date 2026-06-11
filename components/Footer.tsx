@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import Image from "next/image";
 
 const Footer = () => {
 
@@ -35,9 +36,11 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-base  mono-font md:font-normal font-light  text-blue-700 ">
-          Copyright © <span>{new Date().getFullYear()}</span> Aditya. All Rights Reserved. 
+          Copyright © <span>{new Date().getFullYear()}</span> Aditya  | All Rights Reserved. 
 </p>
+                          
         <div className="flex items-center md:gap-3 gap-6">
+          <span className="right-[70px] flex items-center  gap-3 relative font-mono text-blue-700">Made with passion & <Image src={'/greenheart.svg'} alt="greenheart" width={18} height={18} className="relative "></Image> </span>
           {socialMedia.map((info) => (
             <a href={info.link}
               key={info.id}

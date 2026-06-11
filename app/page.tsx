@@ -5,7 +5,7 @@ import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
-import Clients from "@/components/Clients";
+// import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
@@ -14,7 +14,7 @@ import OrbitCarousel from "@/components/ui/OrbitingCarousel";
 import HorizontalScroll from "@/components/horizontalScroll/HorizontalScroll";
 import PixelBlast from "@/Background/PixelBlast";
 import PixelHero from "@/Background/PixelHero";
-import ContactSection from "@/components/ContactSection";
+// import ContactSection from "@/components/ContactSection";
 import GridGlobe from "@/components/ui/GridGlobe";
 import ContactScss from "@/components/contact/Contact"
 

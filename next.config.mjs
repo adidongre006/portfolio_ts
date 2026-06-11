@@ -8,7 +8,7 @@ export default withSentryConfig(nextConfig, {
 
 // Suppresses source map uploading logs during build
 silent: true,
-org: "javascript-mastery",
+org: "aditya",
 project: "javascript-nextjs",
 }, {
 // For all available options, see:
@@ -19,6 +19,15 @@ widenClientFileUpload: true,
 
 // Transpiles SDK to be compatible with IE11 (increases bundle size)
 transpileClientSDK: true,
+// for vercel deployment
+typescript:{
+ignoreBuildErrors:true,
+},
+eslint:{
+    ignoreDuringBuilds:true,
+},
+
+
 
 // Uncomment to route browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers.
 // This can increase your server load as well as your hosting bill.

@@ -91,7 +91,7 @@ whileInView="animate"
 viewport={{ once: false }}
 className="
 min-h-screen w-full
-bg-[#0d0d0d]
+bg-black-100
 flex items-center justify-center
 px-4 py-16
 "
