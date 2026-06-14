@@ -3,7 +3,7 @@
 
 A modern, responsive personal portfolio built with **Next.js** — showcasing my background, skills, projects, and experience, with a clean, elegant design.
 
-🔗 **Live Demo:** [portfolio_ts](https://portfoilo-main-ts.vercel.app/)
+🔗 **Live Demo:** [portfolio_ts](https://portfolio-main-ts.vercel.app/)
 
 ---
 
