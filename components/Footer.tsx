@@ -34,21 +34,21 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center ">
         <p className="md:text-base text-base  mono-font font-semibold  text-blue-700 ">
           Copyright © <span>{new Date().getFullYear()}</span> Aditya | All
           Rights Reserved.
         </p>
 
         <div className="flex items-center md:gap-3 gap-6 lg:flex-row  md:flex-col  ">
-          <span className="flex items-center  gap-3 relative font-mono text-blue-700 font-semibold">
+          <span className=" items-center  flex leading-none  gap-3 relative font-mono text-blue-700 font-semibold ">
             Made with passion &
             <Image
               src={"/greenheart.svg"}
               alt="greenheart"
-              width={18}
-              height={18}
-              className="relative "
+              width={20}
+              height={20}
+              className="relative flex-1 "
             ></Image>
           </span>
           {/* <div className="flex sm:ml-8 md:flex-row flex-col justify-center items-center">
